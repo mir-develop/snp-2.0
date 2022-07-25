@@ -1,0 +1,116 @@
+@media (min-width: 0px) {
+    body {
+        flex-direction: column;
+        justify-content: start;
+        align-self: center;
+    }
+    .menu {
+        display: none;
+    }
+    .bottom {
+        display: none;
+    }
+    .nav {
+        border-bottom: solid 1px #21212110;
+        border-right: none;
+        justify-content: center;
+        padding: 16px;
+        position: sticky;
+    }
+    .nav-content {
+        flex-direction: row;
+    }
+    .logo {
+        width: 56px;
+    }
+    .burger-menu {
+        display: block;
+        position: fixed;
+        top: 21px;
+        right: 24px;
+    }
+    .nav-container .checkbox {
+        top: 21px;
+        right: 16px;
+    }
+    
+    .nav-container .hamburger-lines {
+        top: 21px;
+        right: 16px;
+    }
+    .content-area {
+        box-sizing: border-box;
+        padding: 32px 16px;
+        width: 100%;
+        overflow-y: scroll;
+        overflow-x: auto;
+    }
+    .cart-block {   
+        width: 100%;
+    }
+    .card-cart img {
+        width: 96px;
+        height: 64px;
+    }
+}
+@media (min-width: 1024px) {
+    body {
+        flex-direction: row;
+    }
+    .nav-container {
+        display: none;
+    }
+    .menu {
+        display: flex;
+    }
+    .bottom {
+        display: flex;
+    }
+    .nav {
+        border-right: solid 1px #21212110;
+        border-bottom: none;
+        justify-content: center;
+        padding: 32px 16px;
+        position: static;
+    }
+    .nav-content {
+        flex-direction: column;
+    }
+    .content-area {
+        padding: 32px 16px;
+        width: 100%;
+        overflow-y: scroll;
+        overflow-x: auto;
+    }
+}
+@media (min-width: 1440px) {
+    body {
+        justify-content: center;
+    }
+    .nav {
+        border-right: solid 1px #21212110;
+        border-bottom: none;
+        justify-content: end;
+        padding: 48px 20px;
+    }
+    .content-area {
+        padding: 48px 48px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
+
+@media (hover: hover) {
+    .menu_btn:hover {
+        background: #FFF3E1;
+    }
+    .menu_btn:active{
+        background: #FFEACA;
+    }
+    .in-cart_btn:active {
+        background: #E37A2E;
+    }
+    .pay_btn:active {
+        background: #E37A2E;
+    }
+}

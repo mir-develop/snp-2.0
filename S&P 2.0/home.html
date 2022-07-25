@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Sweet & Point</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-field">
+        <img src="/img/logo.svg" alt="Sweet & Point Logo" class="logo" />
+        <img src="/img/logo_name.svg"/>
+      </div>
+      <nav>
+        <a href="#" class="btn menu enabled">
+          <img src="/img/icons/catalog.svg" />
+          <span>Каталог</span> 
+        </a>
+        <a href="#" class="btn menu">
+          <img src="/img/icons/cart-calm.svg" />
+          <span>Корзина</span> 
+        </a>
+      </nav>
+      <footer>
+        <a href="#" class="btn city">
+          <img src="/img/icons/location.svg" />
+          <span>Москва</span> 
+        </a>
+        <span> © E-Food 2022.<br/>
+            Все права защищены.</span>
+      </footer>
+    </header>
+    <section class="content-area">
+      <div class="content-header">
+        <div class="chooser">
+          <a href="#popular" class="choose clicked"> Популярное </a>
+          <a href="#burgers" class="choose"> Бургеры </a>
+          <a href="#combo" class="choose"> Комбо </a>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Все товары в <b>Москве</b></h1>
+        <div class="block one">
+          <h2 id="popular">Популярное</h2>
+          <div class="row">
+            <div class="card">
+              <div class="card-content">
+                <img src="/img/food/food-1.png" />
+                <div class="card-info">
+                  <div class="name">
+                    <h3>Руссо-Бургер</h3>
+                    <h3 style="color: #ff9040">350 ₽</h3>
+                  </div>
+                  <p>
+                    Попробуйте вкус русского духа вместе с нашим изысканым
+                    соусом в этом бургере
+                  </p>
+                </div>
+              </div>
+              <a href="#" class="btn action">
+                <span>В корзину</span>
+              </a>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <img src="/img/food/food-2.png" />
+                <div class="card-info">
+                  <div class="name">
+                    <h3>Комбо “Мистер Вкустер”</h3>
+                    <h3 style="color: #ff9040">350 ₽</h3>
+                  </div>
+                  <p>
+                    Оригинальный гамбургер, поджаристая картошечка - лучший
+                    выбор для обеда!
+                  </p>
+                </div>
+              </div>
+              <a href="#" class="btn action">
+                <span>В корзину</span>
+              </a>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <img src="/img/food/food-3.png" />
+                <div class="card-info">
+                  <div>
+                    <h3>Двойной Руссо-Бургер</h3>
+                    <h3 style="color: #ff9040">350 ₽</h3>
+                  </div>
+                  <p>
+                    Две котлеты - что может сделать идеальный бургер ещё лучше!
+                  </p>
+                </div>
+              </div>
+              <a href="#" class="btn action">
+                <span>В корзину</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block two">
+          <h2 id="burgers">Бургеры</h2>
+          <div class="row">
+            <div class="card">
+              <div class="card-content">
+                <img src="/img/food/food-1.png" />
+                <div class="card-info">
+                  <div class="name">
+                    <h3>Руссо-Бургер</h3>
+                    <h3 style="color: #ff9040">350 ₽</h3>
+                  </div>
+                  <p>
+                    Попробуйте вкус русского духа вместе с нашим изысканым
+                    соусом в этом бургере
+                  </p>
+                </div>
+              </div>
+              <a href="#" class="btn action">
+                <span>В корзину</span>
+              </a>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <img src="/img/food/food-3.png" />
+                <div class="card-info">
+                  <div>
+                    <h3>Двойной Руссо-Бургер</h3>
+                    <h3 style="color: #ff9040">350 ₽</h3>
+                  </div>
+                  <p>
+                    Две котлеты - что может сделать идеальный бургер ещё лучше!
+                  </p>
+                </div>
+              </div>
+              <a href="#" class="btn action">
+                <span>В корзину</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block three">
+          <h2 id="combo">Комбо</h2>
+          <div class="row">
+            <div class="card">
+              <div class="card-content">
+                <img src="/img/food/food-2.png" />
+                <div class="card-info">
+                  <div class="name">
+                    <h3>Комбо “Мистер Вкустер”</h3>
+                    <h3 style="color: #ff9040">350 ₽</h3>
+                  </div>
+                  <p>
+                    Оригинальный гамбургер, поджаристая картошечка - лучший
+                    выбор для обеда!
+                  </p>
+                </div>
+              </div>
+              <a href="#" class="btn action">
+                <span>В корзину</span>
+              </a>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <img src="/img/food/food-2.png" />
+                <div class="card-info">
+                  <div class="name">
+                    <h3>Комбо “Мистер Вкустер”</h3>
+                    <h3 style="color: #ff9040">350 ₽</h3>
+                  </div>
+                  <p>
+                    Оригинальный гамбургер, поджаристая картошечка - лучший
+                    выбор для обеда!
+                  </p>
+                </div>
+              </div>
+              <a href="#" class="btn action">
+                <span>В корзину</span>
+              </a>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <img src="/img/food/food-2.png" />
+                <div class="card-info">
+                  <div class="name">
+                    <h3>Комбо “Мистер Вкустер”</h3>
+                    <h3 style="color: #ff9040">350 ₽</h3>
+                  </div>
+                  <p>
+                    Оригинальный гамбургер, поджаристая картошечка - лучший
+                    выбор для обеда!
+                  </p>
+                </div>
+              </div>
+              <a href="#" class="btn action">
+                <span>В корзину</span>
+              </a>
+            </div>
+            <div class="card" style="width: auto">
+              <div class="card-content">
+                <img src="/img/food/food-2.png" />
+                <div class="card-info">
+                  <div class="name">
+                    <h3>Комбо “Мистер Вкустер”</h3>
+                    <h3 style="color: #ff9040">350 ₽</h3>
+                  </div>
+                  <p>
+                    Оригинальный гамбургер, поджаристая картошечка - лучший
+                    выбор для обеда!
+                  </p>
+                </div>
+              </div>
+              <a href="#" class="btn action">
+                <span>В корзину</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      $(".choose").click(function () {
+        $(this).toggleClass("clicked");
+        $(".choose").not(this).removeClass("clicked");
+      });
+    </script>
+  </body>
+</html>
